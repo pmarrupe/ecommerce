@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+    <div id='sample'  title="hi">
+            
+              hi <b>how are you</b> and I am good you are great i am happy. <br>
+        </div>
+          
+        <script>
+     
+        var a=document.getElementbyId('sample');
+        
+        document.write(a.hasAttribute('title'));
+        
+        var par= document.createElement("p");
+        par.setAttribute("id","name");
+        par.innerHTML="not really";
+        a.appendChild(par);
+        </script>    
+    
+    </body>
+</html>
